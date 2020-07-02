@@ -1,0 +1,104 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+* {
+  font-family: 'Muli';
+  color: #596275;
+}
+
+body {
+  width: 90%;
+  margin: 1em auto;
+}
+
+header {
+  border-bottom: 2px solid rgba(207, 106, 135,.3);
+}
+
+header > * {
+  margin-bottom: .5em !important;
+}
+
+header h1 {
+  text-align: center;
+  color: #303952;
+}
+
+header .contatos {
+  width: min-content;
+  margin: auto;
+
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: auto;
+  gap: .5em;
+  place-items: center;
+}
+
+.contatos .contato {
+  display: flex;
+  align-items: center;
+}
+
+.contato ion-icon {
+  margin-right: .5em;
+  color: #546de5;
+}
+
+header .sobre {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+main > * {
+  margin-bottom: .5em;
+}
+
+.experiencias {
+  border-bottom: 2px solid rgba(207, 106, 135,.3);
+}
+
+.experiencias h2 {
+  color: #303952;
+}
+
+.experiencias__lista > .experiencia {
+  margin-bottom: 1em;
+} 
+
+.experiencia {
+  display: grid;
+  grid-template-columns: 10% 1fr;
+  gap: .5em;
+}
+
+.experiencia> p {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1em;
+  color: #546de5;
+
+  position: relative;
+}
+
+.experiencia h3 {
+  font-weight: 600;
+  color: rgba(48, 57, 82,1.0);
+}
+
+[current] .experiencia__info h3::after {
+  content: 'atual';
+  padding: .15em .5em;
+  margin-left: .5em;
+  background: #c44569;
+  
+  font-size: .75em;
+  border-radius: 35px;
+  color: #FFF;
+}

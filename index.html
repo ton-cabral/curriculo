@@ -3,22 +3,33 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+
     <title>Currículo</title>
   </head>
   <body>
     <header>
       <h1>Ton Cabral</h1>
 
-      <section class="contato">
-        <p>(67)99956-1988</p>
-        <p>toncabral88@gmail.com</p>
+      <section class="contatos">
+        <div class="contato">
+          <ion-icon name="call"></ion-icon>
+          <p>(67)99956-1988</p>
+        </div>
+
+        <div class="contato">
+          <ion-icon name="mail"></ion-icon>
+          <p>toncabral88@gmail.com</p>
+        </div>
       </section>
 
-      <section class="sobre">
+      <p class="sobre">
         Desenvolvedor com experiência em desenvolvimento de sistemas web e
         mobile. Gosto de códigos organizados e tenho como objetivo me tornar um
         desenvolvedor full stack.
-      </section>
+      </p>
     </header>
 
     <main>
@@ -27,11 +38,10 @@
         <h2>Experiências</h2>
 
         <ul class="experiencias__lista">
-          <li class="experiencia">
+          <li class="experiencia" current>
             <p>2019</p>
             <section class="experiencia__info">
               <h3>Analista 1</h3>
-              <span>atual</span>
               <h5>SGI (GeoItech)</h5>
               <span>Desenvolvimento de sistemas web e mobile para o governo do
                 estado</span>
@@ -39,7 +49,7 @@
           </li>
 
           <li class="experiencia">
-            <p>2018 - 2019</p>
+            <p>2018/19</p>
             <section class="experiencia__info">
               <h3>Desenvolvedor Jr.</h3>
               <h5>EOS Consultores</h5>
@@ -49,7 +59,7 @@
           </li>
 
           <li class="experiencia">
-            <p>2010 - 2015</p>
+            <p>2010/15</p>
             <section class="experiencia__info">
               <h3>Editor Gráfico</h3>
               <h5>Tribus Uniformes</h5>
@@ -189,6 +199,9 @@
     <footer>
       <h6>junho/2020</h6>
     </footer>
+
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+
 
   </body>
 </html>

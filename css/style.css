@@ -102,3 +102,51 @@ main > * {
   border-radius: 35px;
   color: #FFF;
 }
+
+.competencias {
+  border-bottom: 2px solid rgba(207, 106, 135,.3);
+}
+
+.competencias h2 {
+  color: #303952;
+}
+
+.competencias__lista {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.competencia {
+  display: grid;
+  place-items: center;
+
+  background: #546de5;
+  color: #FFF;
+
+  border-radius: 35px;
+  padding: .5em 1em;
+  margin: .25em .25em;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.logo {
+  color: #c44569;
+  margin: .5em;
+}
+
+.logo::before {
+  content: '{';
+}
+
+.logo::after {
+  content: '}';
+}
+
+.logo::before, .logo::after {
+  color: #778beb;
+}

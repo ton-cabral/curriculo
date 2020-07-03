@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,400&display=swap"
+      rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 
     <title>Currículo</title>
@@ -35,7 +37,7 @@
     <main>
 
       <section class="experiencias">
-        <h2>Experiências</h2>
+        <h2 class="section__title">Experiências</h2>
 
         <ul class="experiencias__lista">
           <li class="experiencia" current>
@@ -71,7 +73,7 @@
       </section>
 
       <section class="formacoes">
-        <h3>Formações</h3>
+        <h2 class="section__title">Formações</h2>
 
         <ul class="formacoes__lista">
           <li class="formacao">
@@ -104,7 +106,7 @@
       </section>
 
       <section class="competencias">
-        <h2>Competências</h2>
+        <h2 class="section__title">Competências</h2>
         <ul class="competencias__lista">
           <li class="competencia">HTML</li>
           <li class="competencia">CSS/SCSS</li>
@@ -116,6 +118,7 @@
           <li class="competencia">Github</li>
           <li class="competencia">C#</li>
           <li class="competencia">Xamarin</li>
+          <li class="competencia">Flutter</li>
           <li class="competencia">Asp.Net</li>
           <li class="competencia">Adobe XD</li>
           <li class="competencia">Illustrator</li>
@@ -128,7 +131,7 @@
       </section>
 
       <section class="portfolio">
-        <h3>Portfólio e outros</h3>
+        <h2 class="section__title">Portfólio e outros</h2>
 
         <ul class="portfolio__lista">
 
@@ -145,7 +148,8 @@
           </li>
 
           <li class="portfolio__item">
-            <a href="https://play.google.com/store/apps/developer?id=Portfolio+do+Ton">Playstore</a>
+            <a
+              href="https://play.google.com/store/apps/developer?id=Portfolio+do+Ton">Playstore</a>
           </li>
 
           <li class="portfolio__item">
@@ -155,40 +159,47 @@
       </section>
 
       <section class="referencias">
-        <h3>Referências</h3>
+        <h2 class="section__title">Referências</h2>
 
         <ul class="referencias__lista">
           <li class="referencia">
-            <div class="referencia__info">
-              <h5>Glaucemara Marinho</h5>
-              <p>PO em Desenvolvimento</p>
-              <span>SENAC MS</span>
-            </div>
-            <div class="referencia__contato">
-              <a href="https://www.linkedin.com/in/glaucemara-marinho-de-souza-msc-certified-scrummaster%C2%AE-a0930376">Linkedin</a>
-            </div>
+            <a
+              href="https://www.linkedin.com/in/glaucemara-marinho-de-souza-msc-certified-scrummaster%C2%AE-a0930376">
+              <div class="referencia__info">
+                <h3>Glaucemara Marinho</h3>
+                <p>PO em Desenvolvimento</p>
+                <span>SENAC MS</span>
+              </div>
+              <div class="referencia__contato">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </div>
+            </a>
           </li>
 
           <li class="referencia">
-            <div class="referencia__info">
-              <h5>Ronann Gomes da Cruz</h5>
-              <p>Coordenador</p>
-              <span>GEOI2</span>
-            </div>
-            <div class="referencia__contato">
-              <a href="https://www.linkedin.com/in/ronann-gomes-da-cruz/">Linkedin</a>
-            </div>
+            <a href="https://www.linkedin.com/in/ronann-gomes-da-cruz/">
+              <div class="referencia__info">
+                <h3>Ronann Gomes da Cruz</h3>
+                <p>Coordenador</p>
+                <span>GEOI2</span>
+              </div>
+              <div class="referencia__contato">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </div>
+            </a>
           </li>
 
           <li class="referencia">
-            <div class="referencia__info">
-              <h5>Elias Leite</h5>
-              <p>Analista de Sistemas</p>
-              <span>SGI</span>
-            </div>
-            <div class="referencia__contato">
-              <a href="https://www.linkedin.com/in/elias-leite/">Linkedin</a>
-            </div>
+            <a href="https://www.linkedin.com/in/elias-leite/">
+              <div class="referencia__info">
+                <h3>Elias Leite</h3>
+                <p>Analista de Sistemas</p>
+                <span>SGI</span>
+              </div>
+              <div class="referencia__contato">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </div>
+            </a>
           </li>
 
         </ul>
@@ -202,7 +213,5 @@
     </footer>
 
     <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
-
-
   </body>
 </html>
